@@ -1,0 +1,412 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    padding: 30px 0 0 100px;
+    flex: 1;
+}
+
+.logo h4{
+    font-family: verdana,sans-serif ;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+
+.nav-bar ul li{
+    display: inline-block;
+    margin: 35px 20px 0;
+    font-family: verdana,sans-serif;
+    font-size: 14px;
+}
+
+.nav-bar ul li a:hover{
+    color: yellowgreen;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s color;
+   
+}
+
+
+.home h1{
+    font-size: 60px;
+    color: white;
+    padding-top: 100px; 
+    text-transform: capitalize;
+    margin-bottom: 60px;
+    font-family: tahoma,sans-serif  ;
+}
+
+.home{
+    background-color: black;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 200px;
+}
+
+.home article {
+    flex: 1;
+    padding-left: 100px;
+}
+
+.home article p{
+    color: white;
+    font-size: 25px;
+    font-family: tahoma,sans-serif;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.home h1 span{
+    font-size: 60px;
+    color: yellow;
+}
+
+.home figure{
+    flex: 1;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.home figure img{
+    width: 50%;
+}
+
+.home article a{
+    font-size: 16px;
+    color: white;
+    border: 1px solid yellow;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: tahoma,sans-serif;
+    transition: 0.3s;
+    margin-right: 15px;
+}
+
+.home article a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.about{
+    margin: auto;
+    width: 70%;
+    margin-bottom: 250px;
+    font-family: tahoma,sans-serif;
+}
+
+.about article{
+    border: 3px solid black ;
+    outline: yellowgreen dotted;
+    border-radius: 30px;
+    padding: 30px 0;
+    border-top-left-radius: 0;
+    margin-bottom: 50px;
+}
+
+.about p{
+    font-size: 20px;
+    line-height: 35px;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.about h2{
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.about h5{
+    font-size: 30px;
+    text-align: center;
+    color: yellowgreen;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills figure{
+    width: 20%;
+}
+
+.skills figure img{
+    border-radius: 50%;
+}
+
+.services{
+    font-family: tahoma,sans-serif;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+.services article{
+    display: inline-block;
+    width: 60%;
+}
+.services h2{
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.services h2 span{
+    color: yellowgreen;
+
+}
+
+.services p{
+    font-size: 20px;
+    font-family: tahoma,sans-serif;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+.testimonial{
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-family: tahoma,sans-serif;
+}
+
+.testimonial h1 {
+    color: yellowgreen;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 100px;
+    
+}
+
+.testimonial article{
+    width: 500px;
+    margin: auto;
+    color: white;
+}
+
+.testimonial h2{
+    font-size: 100px;
+    color: yellow;
+    text-align: center;
+}
+
+.testimonial p{
+    font-size: 20px;
+    font-family: tahoma,sans-serif;
+    line-height: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.testimonial img{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.testimonial span{
+    display: block;
+    font-size: 20px;
+    
+}
+
+.testimonial b{
+    display: block;
+}
+
+.services figure{
+    width:30% ;
+    display: inline-block;
+}
+
+.services figure img{
+    width: 80%;
+}
+
+.works img{
+    width: 30%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.works{
+    padding-top: 200px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+.contact{
+    width: 60%;
+    margin: auto;
+}
+
+.contact form{
+    background-color: yellowgreen;
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 100px;
+}
+
+.contact form input{
+    width: 80%;
+    outline: none;
+    padding-left:  15px;
+    margin-bottom: 20px;
+    border: none;
+    color: black;
+    height: 50px
+}
+
+.contact form textarea{
+    margin: auto;
+    min-height: 200px;
+    max-height: 300px;
+    max-width: 80%;
+    min-width: 80%;
+    outline: none;
+    border: none;
+}
+.links{
+    width: 50%;
+    margin: auto;
+}
+
+.contact h2{
+    color: yellowgreen;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 100px;
+    font-family: tahoma,sans-serif;
+}
+
+.works h2{
+    color: yellowgreen;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 100px;
+    font-family: tahoma,sans-serif;
+}
+
+.contact div a{
+    font-size: 30px;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-family: sans-serif;
+}
+
+
+
+@media (max-width:1200px){
+
+
+    .nav-bar ul li{
+        font-size: 12px;
+    }
+
+    .logo h4{
+        font-size: 30px;
+    }
+
+    .home h1{
+        font-size: 45px;
+    }
+
+    .home article p{
+        font-size: 16px;
+    }
+
+    .home article a{
+        padding: 10px 25px;
+    }
+}
+
+
+@media (max-width:800px){
+
+    .about p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .home{
+        flex-direction: column-reverse;
+        height: 100vh;
+    
+    }
+
+    .home figure img{
+        width: 20%;
+    }
+
+    .home article{
+        width: 80%;
+    }
+    .home h1{
+        margin-bottom: 40px;
+    }
+    .home article p{
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .home article{
+        margin-bottom: 50px;
+    }
+    .skills{
+        flex-direction: column;
+    }
+    .skills figure{
+        width: 70%;
+        text-align: center;
+    }
+    .skills figure {
+        margin: auto;
+    }
+    .services article{
+        display: block;
+        margin: auto;
+    }
+    .services p{
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .services figure{
+        display: block;
+        margin: auto;
+    }
+
+.testimonial p{
+    font-size: 16px;
+    line-height: 30px;
+}
+}
+
+@media(max-width:600px){
+    .nav-bar{
+        display: none;
+    }
+}
